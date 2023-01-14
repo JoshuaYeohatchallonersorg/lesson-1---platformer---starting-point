@@ -1,0 +1,34 @@
+{
+    "name": "Lesson 1 - Platformer - Starting Point",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.7.24",
+        "tag": "v1.7.24",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/e7bd2e723209fb725f6274543dab7aa940537364",
+        "target": "1.11.37",
+        "pxt": "7.3.26",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
